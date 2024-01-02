@@ -1,0 +1,7 @@
+Filesystem     Type 1K-blocks     Used Available Use% Mounted on
+/dev/sda3      ext4  19946096 13523768   5383788  72% /
+74
+1519
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+cpu cores	: 1

@@ -1,0 +1,65 @@
+ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.114.128  netmask 255.255.255.0  broadcast 192.168.114.255
+        inet6 fe80::6bc3:6c51:16f9:8221  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:c4:c0:41  txqueuelen 1000  (Ethernet)
+        RX packets 2253  bytes 1727701 (1.7 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1740  bytes 175964 (175.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 608  bytes 58694 (58.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 608  bytes 58694 (58.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+HOSTNAME salmashady-virtual-machine
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.114.2   0.0.0.0         UG    100    0        0 ens33
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 ens33
+192.168.114.0   0.0.0.0         255.255.255.0   U     100    0        0 ens33
+PING google.com (142.250.185.46) 56(84) bytes of data.
+64 bytes from mct01s19-in-f14.1e100.net (142.250.185.46): icmp_seq=1 ttl=128 time=23.1 ms
+64 bytes from mct01s19-in-f14.1e100.net (142.250.185.46): icmp_seq=2 ttl=128 time=33.4 ms
+64 bytes from mct01s19-in-f14.1e100.net (142.250.185.46): icmp_seq=3 ttl=128 time=21.3 ms
+64 bytes from mct01s19-in-f14.1e100.net (142.250.185.46): icmp_seq=4 ttl=128 time=24.9 ms
+64 bytes from mct01s19-in-f14.1e100.net (142.250.185.46): icmp_seq=5 ttl=128 time=26.5 ms
+
+--- google.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 21.326/25.839/33.423/4.169 ms
+traceroute to Google.com (142.250.185.46), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.114.2)  0.230 ms  0.143 ms  0.142 ms
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
